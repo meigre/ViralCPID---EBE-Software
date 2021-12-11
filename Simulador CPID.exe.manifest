@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Simulador CPID.exe" version="1.0.0.1" publicKeyToken="de61c74e9a2e0176" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Simulador CPID" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Simulador CPID.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Simulador CPID.exe" size="44520">
+      <assemblyIdentity name="Simulador CPID" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jZ2bF3Z4BR2NbiKgfwIv359/0hhWVGy/y4wEMQJeH/o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Simulador CPID.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LD66BS3\Arthur" issuerKeyHash="bedf813d8338f9b2d3e9db27404c09e34296ff27" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yWqg1ntznFwewmXCDrEKAWikPRUn4v7NjZfk4jL85zw=</DigestValue></Reference></SignedInfo><SignatureValue>eAaV6ugZU1ncUD10UTOulYUnyf0zqCRxo8cEaPBBDXbasNMqF6Bp64HJ/IeAqsJ4vD5GkDJRKlFYRWUDx/LLfq4WHqvn+/ojYbhymKMMrrsrRquG5vuk+JC+v0L7ipaxcQAbYQySuAEm8eOiu1KkIU9zNhzPXEemn/p3Y+EYkH8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wHP0MPTPnngXdmkyz8IQnXep+ZV8wCH8sVOUUybdMtIkwxaJA6TnCxcu4mLMdXvSRO3YszjAcgkHJrOxT7jkw4BVSwO+ung7TpMgnhOZ8dKqx3YK4MBWVm63Nj7xwVnm1uAwK4NfK3EQlmHSI667vEo9N9F1gJx31SvWFJOUPq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3ce7fc32e2e4978dcdfee227153da468010ab10ec265c21e5c9c737bd6a06ac9" Description="" Url=""><as:assemblyIdentity name="Simulador CPID.exe" version="1.0.0.1" publicKeyToken="de61c74e9a2e0176" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LD66BS3\Arthur</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HGQyJHOqtbyPUS0GWgyGfvXYW1bsDzryMmYUBxLspF4=</DigestValue></Reference></SignedInfo><SignatureValue>Z6LTESORmKoTkXXx+7h92WxRQ1xHyHDPbMYm9NjGmPHOeL2OlCljqkQH2wrAImA63GVW4wHWlFubZgT6pdyeRo6mQrZAi0EmrEyRMNjYy8cRm7+FQnxutlzCFZLtrlyO9jtLV2nKd0jrJxcD5KMPN8OFxG9wFgpRAfJjvIaPO+8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wHP0MPTPnngXdmkyz8IQnXep+ZV8wCH8sVOUUybdMtIkwxaJA6TnCxcu4mLMdXvSRO3YszjAcgkHJrOxT7jkw4BVSwO+ung7TpMgnhOZ8dKqx3YK4MBWVm63Nj7xwVnm1uAwK4NfK3EQlmHSI667vEo9N9F1gJx31SvWFJOUPq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQJhDsozqF6r9KfLEVTJyATTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEwARAA2ADYAQgBTADMAXABBAHIAdABoAHUAcjAeFw0yMTEwMDYxNjAzMTFaFw0yMjEwMDYyMjAzMTFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ATABEADYANgBCAFMAMwBcAEEAcgB0AGgAdQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAc/Qw9M+eeBd2aTLPwhCdd6n5lXzAIfyxU5RTJt0y0iTDFokDpOcLFy7iYsx1e9JE7dizOMByCQcms7FPuOTDgFVLA766eDtOkyCeE5nx0qrHdgrgwFZWbrc2PvHBWebW4DArg18rcRCWYdIjrru8Sj030XWAnHfVK9YUk5Q+rQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKLTlXetGfbdNTNQOJ/N2n1pI6swyPCIJVpxCWRNgBNrsLHHxwcLIO9vRFqrDeY7eKcy7CgGCpFGWF/RXMQYYhfRbUgoe14OQMvtfSlpO7dl3fumS6v1vsM6W6V2sB3U0dEmfk1B5VQ081o0c982UfFeNVIyaC9+ER/s9ywm7KCp</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
